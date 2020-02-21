@@ -22,7 +22,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 
-print(format(sklearn.__version__))
+
 
 
 # In[130]:
@@ -53,7 +53,7 @@ x_train.shape,x_test.shape
 
 
 dtc=DecisionTreeClassifier()
-dtc=clasifier.fit(x_train,y_train)
+dtc=dtc.fit(x_train,y_train)
 y_dtc_pred=dtc.predict(x_test)
 
 
@@ -98,7 +98,7 @@ y_rfc_pred=rfc.predict(x_test)
 # In[141]:
 
 
-print("Random_Forest_Classifier Accuracy:",accuracy_score(y_test, y_rfc_predict))
+print("Random_Forest_Classifier Accuracy:",accuracy_score(y_test, y_rfc_pred))
 
 
 # In[142]:
