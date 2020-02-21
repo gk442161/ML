@@ -4,7 +4,7 @@
 # In[128]:
 
 
-get_ipython().magic(u'matplotlib inline')
+
 
 
 # In[129]:
